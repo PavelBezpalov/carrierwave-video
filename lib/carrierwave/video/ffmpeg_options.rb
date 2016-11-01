@@ -70,7 +70,7 @@ module CarrierWave
                             "main_w-overlay_w-#{margin}:#{margin}"
                         end
 
-          ["-vf", "\"movie=#{path} [logo]; [in][logo] overlay=#{positioning} [out]\""]
+          ["-vf", "movie=#{path} [logo]; [in][logo] overlay=#{positioning} [out]"]
         end
       end
 
